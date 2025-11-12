@@ -9,6 +9,11 @@ import Insights from "./pages/Insights";
 import Discussion from "./pages/Discussion";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
+import Geopolitics from "./pages/Geopolitics";
+import Politics from "./pages/Politics";
+import Diplomacy from "./pages/Diplomacy";
+import Conflicts from "./pages/Conflicts";
+import Economy from "./pages/Economy";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +25,11 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/geopolitics" element={<Geopolitics />} />
+          <Route path="/politics" element={<Politics />} />
+          <Route path="/diplomacy" element={<Diplomacy />} />
+          <Route path="/conflicts" element={<Conflicts />} />
+          <Route path="/economy" element={<Economy />} />
           <Route path="/map" element={<Map />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/discussion" element={<Discussion />} />

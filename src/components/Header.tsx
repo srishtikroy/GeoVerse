@@ -12,19 +12,22 @@ const Header = () => {
           </div>
         </div>
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#geopolitics" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
+          <a href="/" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
+            Home
+          </a>
+          <a href="/geopolitics" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
             Geopolitics
           </a>
-          <a href="#politics" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
+          <a href="/politics" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
             Politics
           </a>
-          <a href="#diplomacy" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
+          <a href="/diplomacy" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
             Diplomacy
           </a>
-          <a href="#conflicts" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
+          <a href="/conflicts" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
             Conflicts
           </a>
-          <a href="#economy" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
+          <a href="/economy" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
             Economy
           </a>
         </nav>

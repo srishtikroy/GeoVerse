@@ -57,58 +57,142 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Topics Overview */}
+      {/* Major World Events */}
       <section className="py-16 bg-background">
         <div className="container">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-12">Explore Topics</h2>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">Major World Events</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Stay informed about the most significant developments shaping our world
+            </p>
+          </div>
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <a href="/geopolitics" className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all hover:border-accent">
-              <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-accent transition-colors">Geopolitics</h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                Power dynamics, strategic alliances, and critical regions shaping global order.
+            <div className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all bg-card">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="px-2 py-1 text-xs font-semibold rounded bg-red-500/20 text-red-500">Conflict</span>
+                <span className="text-xs text-muted-foreground">Ongoing</span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Ukraine War: 1000+ Days</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                The Russia-Ukraine conflict continues with evolving military strategies, international support, and diplomatic efforts for resolution.
               </p>
-              <span className="text-accent text-sm font-medium">Explore →</span>
-            </a>
-            
-            <a href="/politics" className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all hover:border-accent">
-              <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-accent transition-colors">Politics</h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                Electoral systems, democratic institutions, and political movements worldwide.
+              <a href="/conflicts" className="text-accent text-sm font-medium hover:underline">
+                Learn more →
+              </a>
+            </div>
+
+            <div className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all bg-card">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="px-2 py-1 text-xs font-semibold rounded bg-orange-500/20 text-orange-500">Politics</span>
+                <span className="text-xs text-muted-foreground">Breaking</span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Trump's Second Term</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                Global powers repositioning as Trump returns to presidency, reshaping US foreign policy and international relations.
               </p>
-              <span className="text-accent text-sm font-medium">Explore →</span>
-            </a>
-            
-            <a href="/diplomacy" className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all hover:border-accent">
-              <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-accent transition-colors">Diplomacy</h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                Bilateral relations, treaty negotiations, and multilateral forums.
+              <a href="/politics" className="text-accent text-sm font-medium hover:underline">
+                Learn more →
+              </a>
+            </div>
+
+            <div className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all bg-card">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="px-2 py-1 text-xs font-semibold rounded bg-red-500/20 text-red-500">Conflict</span>
+                <span className="text-xs text-muted-foreground">Critical</span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Middle East Crisis</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                Israel-Hamas conflict continues affecting regional stability, humanitarian situation, and international diplomatic efforts.
               </p>
-              <span className="text-accent text-sm font-medium">Explore →</span>
-            </a>
-            
-            <a href="/conflicts" className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all hover:border-accent">
-              <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-accent transition-colors">Conflicts</h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                Active conflicts, military strategies, and regional security crises.
+              <a href="/conflicts" className="text-accent text-sm font-medium hover:underline">
+                Learn more →
+              </a>
+            </div>
+
+            <div className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all bg-card">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="px-2 py-1 text-xs font-semibold rounded bg-blue-500/20 text-blue-500">Economy</span>
+                <span className="text-xs text-muted-foreground">Developing</span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">US-China Trade Tensions</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                Economic decoupling, tariff wars, and supply chain restructuring reshape global trade and economic power dynamics.
               </p>
-              <span className="text-accent text-sm font-medium">Explore →</span>
-            </a>
-            
-            <a href="/economy" className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all hover:border-accent">
-              <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-accent transition-colors">Economy</h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                Trade wars, monetary policy, and global economic developments.
+              <a href="/economy" className="text-accent text-sm font-medium hover:underline">
+                Learn more →
+              </a>
+            </div>
+
+            <div className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all bg-card">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="px-2 py-1 text-xs font-semibold rounded bg-purple-500/20 text-purple-500">Geopolitics</span>
+                <span className="text-xs text-muted-foreground">Evolving</span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">European Defense Buildup</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                Europe launches largest military operation in 30 years, strengthening NATO capabilities amid growing security concerns.
               </p>
-              <span className="text-accent text-sm font-medium">Explore →</span>
-            </a>
-            
-            <a href="/map" className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all hover:border-accent">
-              <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-accent transition-colors">Interactive Map</h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                Visualize global events and conflicts on an interactive world map.
+              <a href="/geopolitics" className="text-accent text-sm font-medium hover:underline">
+                Learn more →
+              </a>
+            </div>
+
+            <div className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all bg-card">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="px-2 py-1 text-xs font-semibold rounded bg-orange-500/20 text-orange-500">Politics</span>
+                <span className="text-xs text-muted-foreground">Recent</span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Syria Regime Change</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                Assad regime ousted after decades of rule, creating new power dynamics and uncertainty in the Middle East region.
               </p>
-              <span className="text-accent text-sm font-medium">Explore →</span>
-            </a>
+              <a href="/politics" className="text-accent text-sm font-medium hover:underline">
+                Learn more →
+              </a>
+            </div>
+
+            <div className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all bg-card">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="px-2 py-1 text-xs font-semibold rounded bg-purple-500/20 text-purple-500">Geopolitics</span>
+                <span className="text-xs text-muted-foreground">Rising</span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Indo-Pacific Tensions</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                South China Sea disputes intensify with increased military presence, AUKUS formation, and regional alliance shifts.
+              </p>
+              <a href="/geopolitics" className="text-accent text-sm font-medium hover:underline">
+                Learn more →
+              </a>
+            </div>
+
+            <div className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all bg-card">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="px-2 py-1 text-xs font-semibold rounded bg-green-500/20 text-green-500">Diplomacy</span>
+                <span className="text-xs text-muted-foreground">Active</span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Climate Negotiations</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                COP summits drive international cooperation on climate finance, emissions targets, and sustainable development goals.
+              </p>
+              <a href="/diplomacy" className="text-accent text-sm font-medium hover:underline">
+                Learn more →
+              </a>
+            </div>
+
+            <div className="group p-6 border border-border rounded-lg hover:shadow-lg transition-all bg-card">
+              <div className="flex items-start gap-3 mb-3">
+                <span className="px-2 py-1 text-xs font-semibold rounded bg-blue-500/20 text-blue-500">Economy</span>
+                <span className="text-xs text-muted-foreground">Impact</span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Global Economic Slowdown</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                IMF warns of dim prospects as trade tensions, inflation pressures, and policy shifts create economic uncertainty.
+              </p>
+              <a href="/economy" className="text-accent text-sm font-medium hover:underline">
+                Learn more →
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -5,30 +5,30 @@ import { ExternalLink } from "lucide-react";
 const Geopolitics = () => {
   const events = [
     {
+      title: "How Russia Plans to Rule Eurasia by River",
+      videoId: "VtE5sTpkn7k",
+      description: "CaspianReport analyzes Russia's strategy of building inland ports and linking them with the Northern Sea Route and Trans-Siberian Railway, transforming Siberia into the logistics heart of Eurasia.",
+      articles: [
+        { title: "Russia's Arctic Strategy", url: "https://www.cfr.org/backgrounder/russias-arctic-ambitions" },
+        { title: "Northern Sea Route Development", url: "https://www.csis.org/analysis/northern-sea-route" }
+      ]
+    },
+    {
+      title: "How the World is Preparing for Trump's Return",
+      videoId: "wEX2MMyK6ps",
+      description: "CaspianReport examines how global powers are repositioning themselves ahead of potential shifts in U.S. foreign policy under a second Trump presidency.",
+      articles: [
+        { title: "Trump's Foreign Policy Impact", url: "https://www.brookings.edu/articles/donald-trumps-foreign-policy-record/" },
+        { title: "Global Response to U.S. Elections", url: "https://www.chathamhouse.org/2024/11/what-trump-presidency-means-world" }
+      ]
+    },
+    {
       title: "Strategic Outlook on Geopolitics 2025",
       videoId: "u5UDkZMw5ig",
-      description: "Analysis of key geopolitical challenges and opportunities expected in 2025, exploring implications for global stability.",
+      description: "Analysis of key geopolitical challenges and opportunities expected in 2025, exploring implications for global stability and business strategies.",
       articles: [
         { title: "Geopolitical Trends 2025", url: "https://www.foreignaffairs.com" },
-        { title: "Global Power Shifts Analysis", url: "https://www.cfr.org" }
-      ]
-    },
-    {
-      title: "Top 5 Geopolitics Risks for 2025",
-      videoId: "Y1cgromiFzY",
-      description: "Major geopolitical risks affecting economics, technology, international cooperation, and trade in 2025.",
-      articles: [
-        { title: "Trump's Second Presidency Impact", url: "https://www.brookings.edu" },
-        { title: "Global Risk Assessment", url: "https://www.chathamhouse.org" }
-      ]
-    },
-    {
-      title: "Great Power Competition Analysis",
-      videoId: "ws8X2rbdlXs",
-      description: "Understanding the pre-war dynamics and great power rivalries shaping the modern world order.",
-      articles: [
-        { title: "US-China Strategic Competition", url: "https://www.csis.org" },
-        { title: "NATO's Future in Multipolar World", url: "https://www.nato.int" }
+        { title: "Global Power Shifts Analysis", url: "https://www.atlanticcouncil.org" }
       ]
     }
   ];

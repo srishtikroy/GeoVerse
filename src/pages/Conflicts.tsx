@@ -5,30 +5,30 @@ import { ExternalLink } from "lucide-react";
 const Conflicts = () => {
   const events = [
     {
-      title: "Ukraine War: Strategic Analysis",
-      videoId: "dQw4w9WgXcQ",
-      description: "Comprehensive analysis of the ongoing conflict in Ukraine, military strategies, and international responses.",
+      title: "Why France is Actually Preparing for War With Russia",
+      videoId: "fiD24uEvY1U",
+      description: "RealLifeLore examines France's military preparations and strategic positioning in response to Russian aggression in Europe, including detailed analysis of French intervention capabilities.",
       articles: [
-        { title: "Ukraine War Updates", url: "https://www.understandingwar.org" },
-        { title: "NATO Support Analysis", url: "https://www.atlanticcouncil.org" }
+        { title: "France Military Strategy", url: "https://www.atlanticcouncil.org/blogs/new-atlanticist/france-defense-strategy/" },
+        { title: "European Defense Readiness", url: "https://www.nato.int/cps/en/natohq/topics_232108.htm" }
       ]
     },
     {
-      title: "Israel-Hamas Conflict",
-      videoId: "dQw4w9WgXcQ",
-      description: "Coverage of the Gaza conflict, humanitarian crisis, and regional implications for Middle East stability.",
+      title: "Why Cambodia & Thailand Are Moving Towards War",
+      videoId: "if6uRH13ZCg",
+      description: "RealLifeLore analyzes the escalating tensions between Cambodia and Thailand over territorial disputes and historical grievances that could lead to military conflict.",
       articles: [
-        { title: "Gaza Humanitarian Crisis", url: "https://www.un.org" },
-        { title: "Regional Security Impact", url: "https://www.crisisgroup.org" }
+        { title: "Southeast Asian Tensions", url: "https://www.csis.org/programs/southeast-asia-program" },
+        { title: "ASEAN Security Challenges", url: "https://www.cfr.org/backgrounder/asean-and-us-relations" }
       ]
     },
     {
-      title: "South China Sea Tensions",
-      videoId: "dQw4w9WgXcQ",
-      description: "Analysis of territorial disputes and military posturing in the contested waters of the South China Sea.",
+      title: "1,000 Days of War in Ukraine",
+      videoId: "vf2vSoWsmgI",
+      description: "Comprehensive analysis of the Ukraine conflict after 1,000 days, including Russia's IRBM strike, military trends, and the current state of forces on both sides.",
       articles: [
-        { title: "Maritime Security Report", url: "https://amti.csis.org" },
-        { title: "ASEAN Response", url: "https://asean.org" }
+        { title: "Ukraine War Timeline", url: "https://www.understandingwar.org" },
+        { title: "Military Balance Analysis", url: "https://www.iiss.org/publications/strategic-comments/2024/ukraine-war-assessment/" }
       ]
     }
   ];

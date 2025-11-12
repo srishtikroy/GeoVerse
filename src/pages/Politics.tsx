@@ -5,30 +5,30 @@ import { ExternalLink } from "lucide-react";
 const Politics = () => {
   const events = [
     {
-      title: "Global Democracy Index 2025",
-      videoId: "dQw4w9WgXcQ",
-      description: "Analysis of democratic institutions, electoral systems, and political reforms across major democracies.",
+      title: "Europe Launches Biggest Military Operation in 30 Years",
+      videoId: "lqmqLGJX6ZM",
+      description: "VisualPolitik EN explores the European Union's largest military effort in decades, analyzing the feasibility and challenges of this ambitious defense initiative.",
       articles: [
-        { title: "Democracy in Decline Report", url: "https://www.freedomhouse.org" },
-        { title: "Electoral Systems Reform", url: "https://www.idea.int" }
+        { title: "EU Defense Integration", url: "https://www.csis.org/analysis/european-defense-integration" },
+        { title: "European Security Strategy", url: "https://www.nato.int/cps/en/natohq/topics_232108.htm" }
       ]
     },
     {
-      title: "Populism and Political Polarization",
-      videoId: "dQw4w9WgXcQ",
-      description: "Understanding the rise of populist movements and increasing political divisions in Western democracies.",
+      title: "Poland No Longer Trusts Anyone Except Force",
+      videoId: "6Z4uy-blZAo",
+      description: "VisualPolitik EN analyzes Poland's dramatic shift in defense policy and its implications for European security architecture.",
       articles: [
-        { title: "Populism Trends Analysis", url: "https://www.foreignpolicy.com" },
-        { title: "Political Polarization Study", url: "https://www.pewresearch.org" }
+        { title: "Poland's Defense Buildup", url: "https://www.chathamhouse.org/2024/11/polands-military-transformation" },
+        { title: "Eastern European Security", url: "https://www.brookings.edu/articles/poland-defense-strategy/" }
       ]
     },
     {
-      title: "Authoritarian Regimes in 2025",
-      videoId: "dQw4w9WgXcQ",
-      description: "Examination of authoritarian governance models and their impact on regional stability.",
+      title: "Why Iran's Military Brass Wants to Change the Capital",
+      videoId: "f4g6KKGMmEI",
+      description: "CaspianReport investigates why Iranian lawmakers and the IRGC support relocating the capital from Tehran, examining the political and strategic implications.",
       articles: [
-        { title: "Authoritarianism Report", url: "https://carnegieendowment.org" },
-        { title: "Digital Authoritarianism", url: "https://www.hrw.org" }
+        { title: "Iran Internal Politics", url: "https://carnegieendowment.org/research/middle-east/iran" },
+        { title: "IRGC Political Influence", url: "https://www.cfr.org/backgrounder/irans-revolutionary-guards" }
       ]
     }
   ];

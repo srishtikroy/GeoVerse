@@ -5,30 +5,30 @@ import { ExternalLink } from "lucide-react";
 const Diplomacy = () => {
   const events = [
     {
-      title: "US-China Diplomatic Relations",
-      videoId: "dQw4w9WgXcQ",
-      description: "Analysis of bilateral negotiations, trade talks, and strategic dialogue between Washington and Beijing.",
+      title: "Estonia: Europe's Most Critical Border",
+      videoId: "i3kQvFwNxNA",
+      description: "VisualPolitik EN examines why Estonia's border with Russia has become one of the most strategically important locations in Europe for NATO and EU security.",
       articles: [
-        { title: "US-China Summit Updates", url: "https://www.state.gov" },
-        { title: "Trade Negotiations Analysis", url: "https://www.piie.com" }
+        { title: "Baltic States Security", url: "https://www.nato.int/cps/en/natohq/topics_49187.htm" },
+        { title: "Russia-NATO Relations", url: "https://www.csis.org/programs/europe-russia-and-eurasia-program" }
       ]
     },
     {
-      title: "UN Climate Diplomacy",
-      videoId: "dQw4w9WgXcQ",
-      description: "International cooperation on climate change through multilateral frameworks and COP summits.",
+      title: "CFR: U.S. Foreign Policy in the Middle East",
+      videoId: "B7w9JJ03RQ0",
+      description: "Council on Foreign Relations expert webinar discussing U.S. strategic interests and diplomatic challenges across the Middle East region.",
       articles: [
-        { title: "COP29 Outcomes", url: "https://unfccc.int" },
-        { title: "Climate Finance Agreements", url: "https://www.worldbank.org" }
+        { title: "Middle East Policy Brief", url: "https://www.cfr.org/backgrounder/us-policy-middle-east" },
+        { title: "Regional Security Framework", url: "https://www.crisisgroup.org/middle-east-north-africa" }
       ]
     },
     {
-      title: "Middle East Peace Process",
-      videoId: "dQw4w9WgXcQ",
-      description: "Diplomatic efforts in the Middle East including peace negotiations and regional security frameworks.",
+      title: "Top 5 Geopolitics Risks for 2025",
+      videoId: "Y1cgromiFzY",
+      description: "Analysis of major geopolitical risks that will shape international diplomacy, from Trump's presidency to ongoing conflicts affecting global cooperation.",
       articles: [
-        { title: "Abraham Accords Progress", url: "https://www.state.gov" },
-        { title: "Regional Dialogue Initiatives", url: "https://www.crisisgroup.org" }
+        { title: "Global Risk Report 2025", url: "https://www.weforum.org/publications/global-risks-report-2025/" },
+        { title: "Diplomatic Challenges Ahead", url: "https://www.foreignaffairs.com/year/2025" }
       ]
     }
   ];

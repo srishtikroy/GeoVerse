@@ -5,30 +5,30 @@ import { ExternalLink } from "lucide-react";
 const Economy = () => {
   const events = [
     {
-      title: "Global Economic Outlook 2025",
-      videoId: "dQw4w9WgXcQ",
-      description: "IMF and World Bank forecasts on global growth, inflation trends, and economic policy challenges.",
+      title: "Why the US & Venezuela Are On The Brink of War",
+      videoId: "d-Mh-ndtqAY",
+      description: "RealLifeLore explores the economic and political tensions between the United States and Venezuela that could escalate into military confrontation, examining oil resources and regional stability.",
       articles: [
-        { title: "IMF World Economic Outlook", url: "https://www.imf.org" },
-        { title: "Global Growth Projections", url: "https://www.worldbank.org" }
+        { title: "US-Venezuela Relations", url: "https://www.cfr.org/backgrounder/us-venezuela-relations" },
+        { title: "Latin America Oil Politics", url: "https://www.csis.org/programs/americas-program" }
       ]
     },
     {
-      title: "US-China Trade War Impact",
-      videoId: "dQw4w9WgXcQ",
-      description: "Analysis of tariffs, supply chain disruptions, and economic decoupling between superpowers.",
+      title: "How Rwanda is Conquering Their 100x Larger Neighbor",
+      videoId: "0N34UFbWpFk",
+      description: "RealLifeLore analyzes Rwanda's economic and military expansion into the Democratic Republic of Congo, examining resource competition and regional economic power dynamics.",
       articles: [
-        { title: "Trade War Timeline", url: "https://www.piie.com" },
-        { title: "Supply Chain Analysis", url: "https://www.mckinsey.com" }
+        { title: "Central Africa Resource Wars", url: "https://www.crisisgroup.org/africa/central-africa" },
+        { title: "DRC Economic Impact", url: "https://www.worldbank.org/en/country/drc" }
       ]
     },
     {
-      title: "Cryptocurrency and CBDC Developments",
-      videoId: "dQw4w9WgXcQ",
-      description: "Digital currency trends, central bank digital currencies, and the future of global finance.",
+      title: "We're Living In a Pre-War World",
+      videoId: "ws8X2rbdlXs",
+      description: "Hal Brands discusses how great power war is no longer unthinkable and the economic implications of rising global tensions and military buildups.",
       articles: [
-        { title: "CBDC Global Survey", url: "https://www.bis.org" },
-        { title: "Crypto Regulation Updates", url: "https://www.coindesk.com" }
+        { title: "Defense Spending Trends", url: "https://www.sipri.org/research/armament-and-disarmament" },
+        { title: "Economic Impact of War Preparation", url: "https://www.brookings.edu/articles/economic-consequences-of-great-power-competition/" }
       ]
     }
   ];

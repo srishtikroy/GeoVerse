@@ -30,6 +30,33 @@ const Diplomacy = () => {
         { title: "Global Risk Report 2025", url: "https://www.weforum.org/publications/global-risks-report-2025/" },
         { title: "Diplomatic Challenges Ahead", url: "https://www.foreignaffairs.com/year/2025" }
       ]
+    },
+    {
+      title: "How the UN Actually Works",
+      videoId: "K_6tj5_XpzI",
+      description: "Vox breaks down the United Nations structure, Security Council dynamics, and why international diplomacy often seems ineffective.",
+      articles: [
+        { title: "UN Security Council Reform", url: "https://www.cfr.org/backgrounder/un-security-council" },
+        { title: "Multilateral Diplomacy", url: "https://www.chathamhouse.org/topics/united-nations" }
+      ]
+    },
+    {
+      title: "ASEAN: Can Asia's Union Compete?",
+      videoId: "VfFMHMKMvbU",
+      description: "PolyMatter examines whether ASEAN can become a unified diplomatic bloc like the EU amid competing interests of its member states.",
+      articles: [
+        { title: "ASEAN Integration", url: "https://thediplomat.com/tag/asean/" },
+        { title: "Southeast Asian Diplomacy", url: "https://www.csis.org/programs/southeast-asia-program" }
+      ]
+    },
+    {
+      title: "The New Cold War: USA vs China",
+      videoId: "hhMAt3BluAU",
+      description: "CaspianReport analyzes the emerging strategic competition between the United States and China across diplomatic, economic, and military spheres.",
+      articles: [
+        { title: "US-China Strategic Competition", url: "https://www.cfr.org/timeline/us-relations-china" },
+        { title: "Great Power Rivalry", url: "https://www.brookings.edu/articles/us-china-strategic-competition/" }
+      ]
     }
   ];
 

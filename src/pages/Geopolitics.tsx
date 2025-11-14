@@ -5,30 +5,57 @@ import { ExternalLink } from "lucide-react";
 const Geopolitics = () => {
   const events = [
     {
-      title: "How Russia Plans to Rule Eurasia by River",
-      videoId: "VtE5sTpkn7k",
-      description: "CaspianReport analyzes Russia's strategy of building inland ports and linking them with the Northern Sea Route and Trans-Siberian Railway, transforming Siberia into the logistics heart of Eurasia.",
+      title: "Why Afghanistan is Impossible to Conquer",
+      videoId: "wB_hjqZQ1UY",
+      description: "An in-depth analysis of Afghanistan's geography and history that explains why it has remained unconquerable throughout history, from Alexander the Great to modern superpowers.",
       articles: [
-        { title: "Russia's Arctic Strategy", url: "https://www.cfr.org/backgrounder/russias-arctic-ambitions" },
-        { title: "Northern Sea Route Development", url: "https://www.csis.org/analysis/northern-sea-route" }
+        { title: "Afghanistan Historical Overview", url: "https://www.cfr.org/timeline/us-war-afghanistan" },
+        { title: "Geopolitical Significance", url: "https://www.aljazeera.com/news/2021/8/15/afghanistan-graveyard-of-empires" }
       ]
     },
     {
-      title: "How the World is Preparing for Trump's Return",
-      videoId: "wEX2MMyK6ps",
-      description: "CaspianReport examines how global powers are repositioning themselves ahead of potential shifts in U.S. foreign policy under a second Trump presidency.",
+      title: "Why China Cannot Abandon North Korea",
+      videoId: "ZswGbDn99r8",
+      description: "Explores the complex strategic relationship between China and North Korea, examining why Beijing continues to support Pyongyang despite international pressure.",
       articles: [
-        { title: "Trump's Foreign Policy Impact", url: "https://www.brookings.edu/articles/donald-trumps-foreign-policy-record/" },
-        { title: "Global Response to U.S. Elections", url: "https://www.chathamhouse.org/2024/11/what-trump-presidency-means-world" }
+        { title: "China-North Korea Relations", url: "https://www.cfr.org/backgrounder/china-north-korea-relationship" },
+        { title: "Strategic Alliance Analysis", url: "https://www.csis.org/analysis/china-north-korea-relationship" }
       ]
     },
     {
-      title: "Strategic Outlook on Geopolitics 2025",
-      videoId: "u5UDkZMw5ig",
-      description: "Analysis of key geopolitical challenges and opportunities expected in 2025, exploring implications for global stability and business strategies.",
+      title: "Russia's Geography Problem",
+      videoId: "v3C_5bsdQWg",
+      description: "RealLifeLore examines how Russia's vast geography and lack of warm water ports have shaped its foreign policy and military strategy throughout history.",
       articles: [
-        { title: "Geopolitical Trends 2025", url: "https://www.foreignaffairs.com" },
-        { title: "Global Power Shifts Analysis", url: "https://www.atlanticcouncil.org" }
+        { title: "Russian Geopolitics", url: "https://www.foreignaffairs.com/articles/russia-fsu/2016-04-18/russias-perpetual-geopolitics" },
+        { title: "Strategic Challenges", url: "https://www.brookings.edu/articles/russia-geography-and-geopolitics/" }
+      ]
+    },
+    {
+      title: "Why the Middle East's Borders Guarantee Forever Wars",
+      videoId: "Jey_CKbkVJQ",
+      description: "Johnny Harris explains how artificial colonial borders created the modern Middle East's perpetual conflicts and instability.",
+      articles: [
+        { title: "Sykes-Picot Agreement Impact", url: "https://www.bbc.com/news/world-middle-east-36300224" },
+        { title: "Colonial Legacy Analysis", url: "https://www.cfr.org/backgrounder/sunni-shia-divide" }
+      ]
+    },
+    {
+      title: "The Power of Geography: Ten Maps that Tell You Everything",
+      videoId: "GqBZ8jbN3xk",
+      description: "Tim Marshall discusses how geography determines the fate of nations, from Russia's vast plains to China's river systems.",
+      articles: [
+        { title: "Prisoners of Geography", url: "https://www.theguardian.com/books/2015/oct/02/prisoners-of-geography-tim-marshall-review" },
+        { title: "Geographic Determinism", url: "https://www.foreignaffairs.com/reviews/capsule-review/2016-02-16/prisoners-geography-ten-maps-explain-everything-about-world" }
+      ]
+    },
+    {
+      title: "India vs China: The Battle for Influence in the Indian Ocean",
+      videoId: "jBgYiEaV4CU",
+      description: "Wendover Productions analyzes the strategic competition between India and China for dominance in the Indian Ocean region.",
+      articles: [
+        { title: "Indo-Pacific Strategy", url: "https://www.cfr.org/backgrounder/chinas-massive-belt-and-road-initiative" },
+        { title: "Maritime Silk Road", url: "https://carnegieendowment.org/research/asia/india" }
       ]
     }
   ];

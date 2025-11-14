@@ -5,30 +5,66 @@ import { ExternalLink } from "lucide-react";
 const Conflicts = () => {
   const events = [
     {
-      title: "Why France is Actually Preparing for War With Russia",
-      videoId: "fiD24uEvY1U",
-      description: "RealLifeLore examines France's military preparations and strategic positioning in response to Russian aggression in Europe, including detailed analysis of French intervention capabilities.",
+      title: "Ukraine War: The Complete Timeline",
+      videoId: "chP-RbN5wJE",
+      description: "RealLifeLore provides a comprehensive timeline of the Russia-Ukraine war from its origins to current developments on the battlefield.",
       articles: [
-        { title: "France Military Strategy", url: "https://www.atlanticcouncil.org/blogs/new-atlanticist/france-defense-strategy/" },
-        { title: "European Defense Readiness", url: "https://www.nato.int/cps/en/natohq/topics_232108.htm" }
+        { title: "Ukraine War Overview", url: "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine" },
+        { title: "Timeline of Events", url: "https://www.bbc.com/news/world-europe-60506682" }
       ]
     },
     {
-      title: "Why Cambodia & Thailand Are Moving Towards War",
-      videoId: "if6uRH13ZCg",
-      description: "RealLifeLore analyzes the escalating tensions between Cambodia and Thailand over territorial disputes and historical grievances that could lead to military conflict.",
+      title: "Israel-Palestine Conflict Explained",
+      videoId: "1wo2TLlMhiw",
+      description: "Vox explains the historical roots and current dynamics of one of the world's most intractable conflicts.",
       articles: [
-        { title: "Southeast Asian Tensions", url: "https://www.csis.org/programs/southeast-asia-program" },
-        { title: "ASEAN Security Challenges", url: "https://www.cfr.org/backgrounder/asean-and-us-relations" }
+        { title: "Israel-Palestine Conflict", url: "https://www.cfr.org/global-conflict-tracker/conflict/israeli-palestinian-conflict" },
+        { title: "Peace Process History", url: "https://www.bbc.com/news/newsbeat-44124396" }
       ]
     },
     {
-      title: "1,000 Days of War in Ukraine",
-      videoId: "vf2vSoWsmgI",
-      description: "Comprehensive analysis of the Ukraine conflict after 1,000 days, including Russia's IRBM strike, military trends, and the current state of forces on both sides.",
+      title: "The Yemen Crisis Explained",
+      videoId: "SoaNkYzPAm4",
+      description: "CaspianReport details the complex multi-sided civil war in Yemen involving regional powers and humanitarian catastrophe.",
       articles: [
-        { title: "Ukraine War Timeline", url: "https://www.understandingwar.org" },
-        { title: "Military Balance Analysis", url: "https://www.iiss.org/publications/strategic-comments/2024/ukraine-war-assessment/" }
+        { title: "Yemen Humanitarian Crisis", url: "https://www.cfr.org/backgrounder/yemen-crisis" },
+        { title: "Regional Proxy War", url: "https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen" }
+      ]
+    },
+    {
+      title: "Why China and India are Fighting",
+      videoId: "iAkhrrmCgf8",
+      description: "Johnny Harris investigates the border conflict between the world's two most populous nations in the Himalayas.",
+      articles: [
+        { title: "India-China Border Dispute", url: "https://www.cfr.org/global-conflict-tracker/conflict/territorial-disputes-south-china-sea" },
+        { title: "Himalayan Standoff", url: "https://www.bbc.com/news/world-asia-53062484" }
+      ]
+    },
+    {
+      title: "Sudan's Forgotten War",
+      videoId: "KUKWqTSiXRE",
+      description: "Al Jazeera English covers the devastating civil war in Sudan that has displaced millions while receiving little international attention.",
+      articles: [
+        { title: "Sudan Civil War 2023", url: "https://www.crisisgroup.org/africa/horn-africa/sudan" },
+        { title: "Humanitarian Crisis", url: "https://www.bbc.com/news/world-africa-65479840" }
+      ]
+    },
+    {
+      title: "Myanmar: The Hidden War",
+      videoId: "Sq0EYo_ZQVU",
+      description: "VICE News investigates the brutal civil war in Myanmar following the military coup and the resistance movement.",
+      articles: [
+        { title: "Myanmar Military Coup", url: "https://www.cfr.org/backgrounder/myanmar-history-coup-military-rule-ethnic-conflict-rohingya-crisis" },
+        { title: "Civil Resistance", url: "https://www.crisisgroup.org/asia/south-east-asia/myanmar" }
+      ]
+    },
+    {
+      title: "Ethiopia's Tigray War Explained",
+      videoId: "8qXzm-TvyQ4",
+      description: "BBC News Africa examines the devastating conflict in Tigray and its impact on regional stability in the Horn of Africa.",
+      articles: [
+        { title: "Tigray Conflict Overview", url: "https://www.cfr.org/article/ethiopias-tigray-conflict" },
+        { title: "Peace Agreement Analysis", url: "https://www.crisisgroup.org/africa/horn-africa/ethiopia/tigray-conflict" }
       ]
     }
   ];

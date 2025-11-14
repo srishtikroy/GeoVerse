@@ -30,6 +30,33 @@ const Politics = () => {
         { title: "Iran Internal Politics", url: "https://carnegieendowment.org/research/middle-east/iran" },
         { title: "IRGC Political Influence", url: "https://www.cfr.org/backgrounder/irans-revolutionary-guards" }
       ]
+    },
+    {
+      title: "India's Election System Explained",
+      videoId: "WvN1zm1hYj8",
+      description: "Vox explains how the world's largest democracy conducts its massive elections with nearly a billion voters participating.",
+      articles: [
+        { title: "Indian Electoral Process", url: "https://www.bbc.com/news/world-asia-india-68775809" },
+        { title: "Democracy at Scale", url: "https://carnegieendowment.org/research/asia/india" }
+      ]
+    },
+    {
+      title: "How Singapore Solved Housing",
+      videoId: "3dBaEo4QplQ",
+      description: "Wendover Productions examines Singapore's revolutionary public housing model that achieves 90% homeownership through government planning.",
+      articles: [
+        { title: "Singapore Housing Policy", url: "https://www.bloomberg.com/news/articles/2020-07-08/behind-the-design-of-singapore-s-low-cost-housing" },
+        { title: "Urban Planning Success", url: "https://www.mckinsey.com/industries/public-sector/our-insights/lessons-from-singapore-on-housing-policy" }
+      ]
+    },
+    {
+      title: "Why the UK's Politics Broke",
+      videoId: "yRcfnVBFBkc",
+      description: "TLDR News UK analyzes the breakdown of British political consensus and the factors driving political instability in Westminster.",
+      articles: [
+        { title: "UK Political Crisis", url: "https://www.chathamhouse.org/publications/the-world-today/2023-10/crisis-british-politics" },
+        { title: "Westminster System Under Strain", url: "https://www.brookings.edu/articles/the-crisis-of-british-politics/" }
+      ]
     }
   ];
 

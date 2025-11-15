@@ -4,10 +4,6 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import Map from "./pages/Map";
-import Insights from "./pages/Insights";
-import Discussion from "./pages/Discussion";
-import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 import Geopolitics from "./pages/Geopolitics";
 import Politics from "./pages/Politics";
@@ -30,10 +26,6 @@ const App = () => (
           <Route path="/diplomacy" element={<Diplomacy />} />
           <Route path="/conflicts" element={<Conflicts />} />
           <Route path="/economy" element={<Economy />} />
-          <Route path="/map" element={<Map />} />
-          <Route path="/insights" element={<Insights />} />
-          <Route path="/discussion" element={<Discussion />} />
-          <Route path="/auth" element={<Auth />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -5,66 +5,66 @@ import { ExternalLink } from "lucide-react";
 const Conflicts = () => {
   const events = [
     {
-      title: "Ukraine War: The Complete Timeline",
-      videoId: "chP-RbN5wJE",
-      description: "RealLifeLore provides a comprehensive timeline of the Russia-Ukraine war from its origins to current developments on the battlefield.",
+      title: "The Russia-Ukraine War Explained",
+      videoId: "LJNtfyq3TDE",
+      description: "Johnny Harris provides a comprehensive explanation of the Russia-Ukraine conflict, its historical roots, and current battlefield dynamics.",
       articles: [
         { title: "Ukraine War Overview", url: "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine" },
         { title: "Timeline of Events", url: "https://www.bbc.com/news/world-europe-60506682" }
       ]
     },
     {
-      title: "Israel-Palestine Conflict Explained",
-      videoId: "1wo2TLlMhiw",
-      description: "Vox explains the historical roots and current dynamics of one of the world's most intractable conflicts.",
+      title: "Israel-Palestine Conflict: A Simple History",
+      videoId: "iRYZjOuUnlU",
+      description: "Vox explains the historical roots and current dynamics of one of the world's most intractable conflicts in a clear, accessible way.",
       articles: [
         { title: "Israel-Palestine Conflict", url: "https://www.cfr.org/global-conflict-tracker/conflict/israeli-palestinian-conflict" },
         { title: "Peace Process History", url: "https://www.bbc.com/news/newsbeat-44124396" }
       ]
     },
     {
-      title: "The Yemen Crisis Explained",
-      videoId: "SoaNkYzPAm4",
-      description: "CaspianReport details the complex multi-sided civil war in Yemen involving regional powers and humanitarian catastrophe.",
+      title: "The Yemen Civil War Explained",
+      videoId: "RXA8WzThPm8",
+      description: "The Infographics Show details the complex multi-sided civil war in Yemen involving regional powers and humanitarian catastrophe.",
       articles: [
         { title: "Yemen Humanitarian Crisis", url: "https://www.cfr.org/backgrounder/yemen-crisis" },
         { title: "Regional Proxy War", url: "https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen" }
       ]
     },
     {
-      title: "Why China and India are Fighting",
-      videoId: "iAkhrrmCgf8",
-      description: "Johnny Harris investigates the border conflict between the world's two most populous nations in the Himalayas.",
+      title: "Syria's War: A 5 Minute History",
+      videoId: "m-I2pReUHI8",
+      description: "Vox provides a concise overview of Syria's devastating civil war, the key players, and its regional implications.",
       articles: [
-        { title: "India-China Border Dispute", url: "https://www.cfr.org/global-conflict-tracker/conflict/territorial-disputes-south-china-sea" },
-        { title: "Himalayan Standoff", url: "https://www.bbc.com/news/world-asia-53062484" }
+        { title: "Syria Conflict", url: "https://www.cfr.org/global-conflict-tracker/conflict/civil-war-syria" },
+        { title: "Regional Impact", url: "https://www.crisisgroup.org/middle-east-north-africa/eastern-mediterranean/syria" }
       ]
     },
     {
-      title: "Sudan's Forgotten War",
-      videoId: "KUKWqTSiXRE",
-      description: "Al Jazeera English covers the devastating civil war in Sudan that has displaced millions while receiving little international attention.",
+      title: "The Kashmir Conflict Explained",
+      videoId: "cyayif CHKtw",
+      description: "The Guardian examines the territorial dispute between India and Pakistan over Kashmir that has led to multiple wars.",
       articles: [
-        { title: "Sudan Civil War 2023", url: "https://www.crisisgroup.org/africa/horn-africa/sudan" },
-        { title: "Humanitarian Crisis", url: "https://www.bbc.com/news/world-africa-65479840" }
+        { title: "Kashmir Dispute", url: "https://www.cfr.org/backgrounder/india-pakistan-kashmir-conflict" },
+        { title: "Regional Tensions", url: "https://www.bbc.com/news/10537286" }
       ]
     },
     {
-      title: "Myanmar: The Hidden War",
-      videoId: "Sq0EYo_ZQVU",
-      description: "VICE News investigates the brutal civil war in Myanmar following the military coup and the resistance movement.",
+      title: "Afghanistan's Endless War",
+      videoId: "8EDW88CBo-8",
+      description: "Vox traces Afghanistan's 40+ years of continuous conflict from Soviet invasion to Taliban resurgence.",
       articles: [
-        { title: "Myanmar Military Coup", url: "https://www.cfr.org/backgrounder/myanmar-history-coup-military-rule-ethnic-conflict-rohingya-crisis" },
-        { title: "Civil Resistance", url: "https://www.crisisgroup.org/asia/south-east-asia/myanmar" }
+        { title: "Afghanistan Timeline", url: "https://www.cfr.org/timeline/us-war-afghanistan" },
+        { title: "Taliban Return", url: "https://www.bbc.com/news/world-asia-51689443" }
       ]
     },
     {
-      title: "Ethiopia's Tigray War Explained",
-      videoId: "8qXzm-TvyQ4",
-      description: "BBC News Africa examines the devastating conflict in Tigray and its impact on regional stability in the Horn of Africa.",
+      title: "The Armenian-Azerbaijan Conflict",
+      videoId: "WCefUW55a0M",
+      description: "RealLifeLore explains the Nagorno-Karabakh conflict between Armenia and Azerbaijan over the disputed territory.",
       articles: [
-        { title: "Tigray Conflict Overview", url: "https://www.cfr.org/article/ethiopias-tigray-conflict" },
-        { title: "Peace Agreement Analysis", url: "https://www.crisisgroup.org/africa/horn-africa/ethiopia/tigray-conflict" }
+        { title: "Nagorno-Karabakh Conflict", url: "https://www.cfr.org/global-conflict-tracker/conflict/nagorno-karabakh-conflict" },
+        { title: "Regional Tensions", url: "https://www.crisisgroup.org/europe-central-asia/caucasus/nagorno-karabakh-conflict" }
       ]
     }
   ];

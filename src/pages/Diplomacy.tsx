@@ -5,57 +5,57 @@ import { ExternalLink } from "lucide-react";
 const Diplomacy = () => {
   const events = [
     {
-      title: "Estonia: Europe's Most Critical Border",
-      videoId: "i3kQvFwNxNA",
-      description: "VisualPolitik EN examines why Estonia's border with Russia has become one of the most strategically important locations in Europe for NATO and EU security.",
+      title: "How NATO Works",
+      videoId: "tV5wmDhMMMQ",
+      description: "The Infographics Show explains NATO's structure, decision-making process, and role in maintaining transatlantic security cooperation.",
       articles: [
-        { title: "Baltic States Security", url: "https://www.nato.int/cps/en/natohq/topics_49187.htm" },
-        { title: "Russia-NATO Relations", url: "https://www.csis.org/programs/europe-russia-and-eurasia-program" }
+        { title: "NATO Overview", url: "https://www.nato.int/nato-welcome/" },
+        { title: "Collective Defense", url: "https://www.csis.org/programs/international-security-program" }
       ]
     },
     {
-      title: "CFR: U.S. Foreign Policy in the Middle East",
-      videoId: "B7w9JJ03RQ0",
-      description: "Council on Foreign Relations expert webinar discussing U.S. strategic interests and diplomatic challenges across the Middle East region.",
+      title: "The United Nations Explained",
+      videoId: "qsrDGh5a-6Q",
+      description: "Kurzgesagt explains how the UN actually functions, the Security Council's power dynamics, and why international diplomacy often seems ineffective.",
       articles: [
-        { title: "Middle East Policy Brief", url: "https://www.cfr.org/backgrounder/us-policy-middle-east" },
-        { title: "Regional Security Framework", url: "https://www.crisisgroup.org/middle-east-north-africa" }
-      ]
-    },
-    {
-      title: "Top 5 Geopolitics Risks for 2025",
-      videoId: "Y1cgromiFzY",
-      description: "Analysis of major geopolitical risks that will shape international diplomacy, from Trump's presidency to ongoing conflicts affecting global cooperation.",
-      articles: [
-        { title: "Global Risk Report 2025", url: "https://www.weforum.org/publications/global-risks-report-2025/" },
-        { title: "Diplomatic Challenges Ahead", url: "https://www.foreignaffairs.com/year/2025" }
-      ]
-    },
-    {
-      title: "How the UN Actually Works",
-      videoId: "K_6tj5_XpzI",
-      description: "Vox breaks down the United Nations structure, Security Council dynamics, and why international diplomacy often seems ineffective.",
-      articles: [
-        { title: "UN Security Council Reform", url: "https://www.cfr.org/backgrounder/un-security-council" },
+        { title: "UN Security Council", url: "https://www.cfr.org/backgrounder/un-security-council" },
         { title: "Multilateral Diplomacy", url: "https://www.chathamhouse.org/topics/united-nations" }
       ]
     },
     {
-      title: "ASEAN: Can Asia's Union Compete?",
-      videoId: "VfFMHMKMvbU",
-      description: "PolyMatter examines whether ASEAN can become a unified diplomatic bloc like the EU amid competing interests of its member states.",
+      title: "China's Belt and Road Initiative Explained",
+      videoId: "EvXROXiIpvQ",
+      description: "PolyMatter analyzes China's ambitious infrastructure project spanning three continents and its geopolitical implications.",
       articles: [
-        { title: "ASEAN Integration", url: "https://thediplomat.com/tag/asean/" },
-        { title: "Southeast Asian Diplomacy", url: "https://www.csis.org/programs/southeast-asia-program" }
+        { title: "Belt and Road Overview", url: "https://www.cfr.org/backgrounder/chinas-massive-belt-and-road-initiative" },
+        { title: "Global Infrastructure", url: "https://www.csis.org/analysis/chinas-belt-and-road" }
       ]
     },
     {
-      title: "The New Cold War: USA vs China",
+      title: "US-China Relations Explained",
       videoId: "hhMAt3BluAU",
-      description: "CaspianReport analyzes the emerging strategic competition between the United States and China across diplomatic, economic, and military spheres.",
+      description: "CaspianReport examines the complex diplomatic relationship between the world's two largest economies and competing superpowers.",
       articles: [
-        { title: "US-China Strategic Competition", url: "https://www.cfr.org/timeline/us-relations-china" },
-        { title: "Great Power Rivalry", url: "https://www.brookings.edu/articles/us-china-strategic-competition/" }
+        { title: "US-China Timeline", url: "https://www.cfr.org/timeline/us-relations-china" },
+        { title: "Strategic Competition", url: "https://www.brookings.edu/project/us-china-relations/" }
+      ]
+    },
+    {
+      title: "The European Union Explained",
+      videoId: "O37yJBFRrfg",
+      description: "Kurzgesagt breaks down how the European Union works, from its institutions to decision-making processes affecting 450 million people.",
+      articles: [
+        { title: "EU Institutions", url: "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies_en" },
+        { title: "European Integration", url: "https://www.chathamhouse.org/topics/european-union" }
+      ]
+    },
+    {
+      title: "The BRICS Summit: Challenging Western Dominance",
+      videoId: "aJl2Bs4vuq8",
+      description: "TLDR News Global analyzes the BRICS alliance and its efforts to create an alternative to Western-dominated international institutions.",
+      articles: [
+        { title: "BRICS Overview", url: "https://www.cfr.org/backgrounder/brics-emerging-economies" },
+        { title: "Multipolarity", url: "https://www.brookings.edu/articles/the-rise-of-the-rest/" }
       ]
     }
   ];

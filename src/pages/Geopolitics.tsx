@@ -6,7 +6,7 @@ const Geopolitics = () => {
   const events = [
     {
       title: "Why Afghanistan is Impossible to Conquer",
-      videoId: "wB_hjqZQ1UY",
+      videoId: "Ab9zK8yT4_Y",
       description: "An in-depth analysis of Afghanistan's geography and history that explains why it has remained unconquerable throughout history, from Alexander the Great to modern superpowers.",
       articles: [
         { title: "Afghanistan Historical Overview", url: "https://www.cfr.org/timeline/us-war-afghanistan" },
@@ -15,7 +15,7 @@ const Geopolitics = () => {
     },
     {
       title: "Why China Cannot Abandon North Korea",
-      videoId: "ZswGbDn99r8",
+      videoId: "Lsz0JRzBn_I",
       description: "Explores the complex strategic relationship between China and North Korea, examining why Beijing continues to support Pyongyang despite international pressure.",
       articles: [
         { title: "China-North Korea Relations", url: "https://www.cfr.org/backgrounder/china-north-korea-relationship" },
@@ -24,7 +24,7 @@ const Geopolitics = () => {
     },
     {
       title: "Russia's Geography Problem",
-      videoId: "v3C_5bsdQWg",
+      videoId: "HBlZlmXyR5M",
       description: "RealLifeLore examines how Russia's vast geography and lack of warm water ports have shaped its foreign policy and military strategy throughout history.",
       articles: [
         { title: "Russian Geopolitics", url: "https://www.foreignaffairs.com/articles/russia-fsu/2016-04-18/russias-perpetual-geopolitics" },
@@ -33,7 +33,7 @@ const Geopolitics = () => {
     },
     {
       title: "Why the Middle East's Borders Guarantee Forever Wars",
-      videoId: "Jey_CKbkVJQ",
+      videoId: "BaPWB_uwubQ",
       description: "Johnny Harris explains how artificial colonial borders created the modern Middle East's perpetual conflicts and instability.",
       articles: [
         { title: "Sykes-Picot Agreement Impact", url: "https://www.bbc.com/news/world-middle-east-36300224" },
@@ -41,21 +41,21 @@ const Geopolitics = () => {
       ]
     },
     {
-      title: "The Power of Geography: Ten Maps that Tell You Everything",
-      videoId: "GqBZ8jbN3xk",
-      description: "Tim Marshall discusses how geography determines the fate of nations, from Russia's vast plains to China's river systems.",
+      title: "Geopolitics of the South China Sea",
+      videoId: "luTPMHC7zHY",
+      description: "CaspianReport analyzes the strategic importance of the South China Sea and competing territorial claims in one of the world's most contested regions.",
       articles: [
-        { title: "Prisoners of Geography", url: "https://www.theguardian.com/books/2015/oct/02/prisoners-of-geography-tim-marshall-review" },
-        { title: "Geographic Determinism", url: "https://www.foreignaffairs.com/reviews/capsule-review/2016-02-16/prisoners-geography-ten-maps-explain-everything-about-world" }
+        { title: "South China Sea Disputes", url: "https://www.cfr.org/global-conflict-tracker/conflict/territorial-disputes-south-china-sea" },
+        { title: "Maritime Security", url: "https://www.csis.org/programs/china-power-project/south-china-sea" }
       ]
     },
     {
-      title: "India vs China: The Battle for Influence in the Indian Ocean",
-      videoId: "jBgYiEaV4CU",
-      description: "Wendover Productions analyzes the strategic competition between India and China for dominance in the Indian Ocean region.",
+      title: "Africa's Geography Problem",
+      videoId: "lRjG8aFjMp4",
+      description: "Wendover Productions examines how Africa's geography has shaped its development challenges and geopolitical position in the 21st century.",
       articles: [
-        { title: "Indo-Pacific Strategy", url: "https://www.cfr.org/backgrounder/chinas-massive-belt-and-road-initiative" },
-        { title: "Maritime Silk Road", url: "https://carnegieendowment.org/research/asia/india" }
+        { title: "African Economic Development", url: "https://www.brookings.edu/project/africa-growth-initiative/" },
+        { title: "Geographic Constraints", url: "https://www.worldbank.org/en/region/afr" }
       ]
     }
   ];

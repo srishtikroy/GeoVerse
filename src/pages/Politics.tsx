@@ -5,34 +5,34 @@ import { ExternalLink } from "lucide-react";
 const Politics = () => {
   const events = [
     {
-      title: "Europe Launches Biggest Military Operation in 30 Years",
-      videoId: "lqmqLGJX6ZM",
-      description: "VisualPolitik EN explores the European Union's largest military effort in decades, analyzing the feasibility and challenges of this ambitious defense initiative.",
+      title: "How European Elections Work",
+      videoId: "0V5ckcTSYu8",
+      description: "TLDR News EU explores the European Parliament election system and how it shapes EU politics and policy-making.",
       articles: [
-        { title: "EU Defense Integration", url: "https://www.csis.org/analysis/european-defense-integration" },
-        { title: "European Security Strategy", url: "https://www.nato.int/cps/en/natohq/topics_232108.htm" }
+        { title: "EU Electoral System", url: "https://www.europarl.europa.eu/about-parliament/en/organisation-and-rules/how-parliament-works" },
+        { title: "European Democracy", url: "https://www.chathamhouse.org/topics/european-union" }
       ]
     },
     {
-      title: "Poland No Longer Trusts Anyone Except Force",
-      videoId: "6Z4uy-blZAo",
-      description: "VisualPolitik EN analyzes Poland's dramatic shift in defense policy and its implications for European security architecture.",
+      title: "Poland's Military Transformation",
+      videoId: "ZJIlOmHZ3qg",
+      description: "VisualPolitik EN analyzes Poland's dramatic shift in defense policy and massive military buildup following Russia's invasion of Ukraine.",
       articles: [
         { title: "Poland's Defense Buildup", url: "https://www.chathamhouse.org/2024/11/polands-military-transformation" },
-        { title: "Eastern European Security", url: "https://www.brookings.edu/articles/poland-defense-strategy/" }
+        { title: "Eastern European Security", url: "https://www.nato.int/cps/en/natohq/topics_49187.htm" }
       ]
     },
     {
-      title: "Why Iran's Military Brass Wants to Change the Capital",
-      videoId: "f4g6KKGMmEI",
-      description: "CaspianReport investigates why Iranian lawmakers and the IRGC support relocating the capital from Tehran, examining the political and strategic implications.",
+      title: "How Iran's Government Works",
+      videoId: "JY5b9hLa2zw",
+      description: "The Infographics Show explains the unique structure of Iran's theocratic government and the power dynamics between religious and political leadership.",
       articles: [
-        { title: "Iran Internal Politics", url: "https://carnegieendowment.org/research/middle-east/iran" },
+        { title: "Iran Political System", url: "https://www.cfr.org/backgrounder/irans-government" },
         { title: "IRGC Political Influence", url: "https://www.cfr.org/backgrounder/irans-revolutionary-guards" }
       ]
     },
     {
-      title: "India's Election System Explained",
+      title: "India's Election: The World's Biggest Democracy",
       videoId: "WvN1zm1hYj8",
       description: "Vox explains how the world's largest democracy conducts its massive elections with nearly a billion voters participating.",
       articles: [
@@ -41,21 +41,21 @@ const Politics = () => {
       ]
     },
     {
-      title: "How Singapore Solved Housing",
-      videoId: "3dBaEo4QplQ",
-      description: "Wendover Productions examines Singapore's revolutionary public housing model that achieves 90% homeownership through government planning.",
+      title: "How Singapore Became So Rich",
+      videoId: "rlnxFGFnJKY",
+      description: "Economics Explained examines Singapore's revolutionary transformation from a poor port to one of the world's wealthiest nations.",
       articles: [
-        { title: "Singapore Housing Policy", url: "https://www.bloomberg.com/news/articles/2020-07-08/behind-the-design-of-singapore-s-low-cost-housing" },
-        { title: "Urban Planning Success", url: "https://www.mckinsey.com/industries/public-sector/our-insights/lessons-from-singapore-on-housing-policy" }
+        { title: "Singapore Economic Model", url: "https://www.imf.org/en/Countries/SGP" },
+        { title: "Development Success Story", url: "https://www.worldbank.org/en/country/singapore" }
       ]
     },
     {
-      title: "Why the UK's Politics Broke",
-      videoId: "yRcfnVBFBkc",
+      title: "The UK's Political Crisis Explained",
+      videoId: "2hOLz9AsfqI",
       description: "TLDR News UK analyzes the breakdown of British political consensus and the factors driving political instability in Westminster.",
       articles: [
-        { title: "UK Political Crisis", url: "https://www.chathamhouse.org/publications/the-world-today/2023-10/crisis-british-politics" },
-        { title: "Westminster System Under Strain", url: "https://www.brookings.edu/articles/the-crisis-of-british-politics/" }
+        { title: "UK Political System", url: "https://www.parliament.uk/about/how/role/" },
+        { title: "Westminster Challenges", url: "https://www.chathamhouse.org/publications" }
       ]
     }
   ];
